@@ -1,24 +1,12 @@
-## 9SPL vCard Flutter
+# vCard Example
 
-[![pub package](https://img.shields.io/pub/v/vcard.svg)](https://pub.dartlang.org/packages/vcard)
+Demonstrates how to use the vCard package - a dart port of vCard JS by Eric J Nesser.
 
-Create vCards to import contacts into Outlook, iOS, Mac OS, and Android devices from your website or mobile application.
+## Getting Started
 
-## Install
+For help getting started with this package from [readme documentation](https://pub.dev/packages/vcard).
 
-To use this package, add `vcard` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/) like so.
-
-``` dart
-dependencies:
-  vcard: any
-```
-
-Then run the flutter tooling:
-```sh
-flutter packages get
-```
-
-## Usage
+## Basic Usage
 
 Below is a simple example of how to create a basic vCard and how to save it to a file, or view its contents from the console.
 
@@ -203,39 +191,3 @@ You can mark as a contact as an organization with the following Apple AddressBoo
     var vCard = VCard();
     vCard.isOrganization = true;
 ```
-
-## Original Source
-
-This is a dart port of vCards-js package by Eric J Nesser
-[https://github.com/enesser/vCards-js](https://github.com/enesser/vCards-js)
-
-## Testing
-
-You can run the VCard unit tests via (WIP):
-
-```sh
-flutter test
-```
-
-## Credits
-
-Contributions are always welcome!
-
-Thanks to Eric whose original work made life so much easier for me.
-* Eric J Nesser ([https://github.com/enesser](https://github.com/enesser))
-
-## Dependencies
-This package depends on:
-* validators ([https://pub.dev/packages/validators](https://pub.dev/packages/validators))
-* path_provider ([https://pub.dev/packages/path_provider](https://pub.dev/packages/path_provider))
-* path ([https://pub.dev/packages/path](https://pub.dev/packages/path))
-* intl ([https://pub.dev/packages/intl](https://pub.dev/packages/intl))
-* meta ([https://pub.dev/packages/meta](https://pub.dev/packages/meta))
-
-## Contributions
-Contributions are always welcome!
-
-
-## License
-9series Solutions Pvt. Ltd.
-**App Development Software, [Hello Yeah](https://www.9series.com/)!**
